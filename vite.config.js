@@ -1,6 +1,7 @@
 import tsconfigPaths from "vite-tsconfig-paths";
 import { defineConfig } from "vite";
 import path from "node:path";
+import postcss from "./postcss.config.js";
 
 const isGitHubPages = true;
 const folderName = path.basename(process.cwd()) + "/";
@@ -21,6 +22,9 @@ export default defineConfig({
   },
   build: {
     outDir: "../dist",
-    assetsDir: "./"
+    assetsDir: "./",
+    css: {
+      postcss,
+    }
   }
 });
