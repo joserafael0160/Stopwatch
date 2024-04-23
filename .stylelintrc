@@ -1,5 +1,7 @@
 {
   "extends": "stylelint-config-manzdev",
-  "rules": {
-  }
+  "rules": {},
+  "ignoreFiles": [
+    "dist/css/style.min.css"
+  ]
 }
