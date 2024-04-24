@@ -5,11 +5,13 @@
 }
 
 @font-face {
+  font-display: swap;
   font-family: Roboto;
   src: url("./../assets/fonts/Roboto/Roboto-BoldItalic.ttf") format("truetype");
 }
 
 @font-face {
+  font-display: swap;
   font-family: Inconsolata;
   src: url("./../assets/fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf") format("truetype");
 
